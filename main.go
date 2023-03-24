@@ -3,6 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Let's get some knowledge!")
+	var age string
+	fmt.Println("How old are you?")
+	fmt.Scan(&age)
+	fmt.Println("Oh, you are already " + age + " :O")
 
 }
