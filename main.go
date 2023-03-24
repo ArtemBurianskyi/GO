@@ -1,8 +1,8 @@
-package art
+package main
 
 import "fmt"
 
-func art() {
+func main() {
 	fmt.Println("Let's get some knowledge!")
 
 }
